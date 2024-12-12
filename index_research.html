@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Researcher</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e8e1d1;
+        }
+        .research-card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .research-card:hover {
+            transform: scale(1.05);
+        }
+        .card-image {
+            object-fit: cover;
+            height: 300px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container px-4 py-8">
+        <div class="position-relative d-flex align-items-center mb-8">
+            <a href="index.html" class="position-absolute">
+                <img src="back.png" width="78px" height="78px">
+            </a>
+            <h1 class="w-100 text-center display-4 fw-bold">Researcher</h1>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-4">
+                <div class="card research-card cursor-pointer bg-dark text-white">
+                    <img src="R1.jpg" alt="Body Language Silhouette" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Body Language and moods</h5>
+                        <p class="card-text text-muted">
+                            <small>Calista Moraes</small><br>
+                            <small>08th Dec 2023</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-4">
+                <div class="card research-card cursor-pointer bg-dark text-white">
+                    <img src="R2.jpeg" alt="AI Visualization" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h5 class="card-title">AI: A friend in making or a backstabber?</h5>
+                        <p class="card-text text-muted">
+                            <small>Calista Moraes & Swarangi Kulkarni</small><br>
+                            <small>26th April 2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-4">
+                <div class="card research-card cursor-pointer bg-dark text-white">
+                    <img src="R3.jpg" alt="Line Art Head" class="card-img-top card-image">
+                    <div class="card-body">
+                        <h5 class="card-title">Beyond Belief_ Unravelling Community, Culture and Connections</h5>
+                        <p class="card-text text-muted">
+                            <small>Calista Moraes & Srushti Bhosale</small><br>
+                            <small>08th Dec 2024</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, for any Bootstrap features that require JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
